@@ -15,27 +15,27 @@
 }
 .inputdiv input{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: transparent;
     border: none;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 }
 .bodydiv table{
     width: 100%;
-    height: 400px;
+    height: 350px;
     
 }
 .bodydiv table tr td{
     border: 1px solid #2e3530;
     text-align: center;
     font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
-    color: white;
+    background-color: #d5d9d5;
 }
 .bodydiv table tr td:hover{
-    background-color: blue;
-    font-weight: bold;
+    background-color: #b0b8b3;
 }
 .colorful{
     background-color: #d5d9d5;
