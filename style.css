@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    border: none;
+    background-color: #2e3530;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.inputdiv input{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+.bodydiv table{
+    width: 100%;
+    height: 400px;
+    
+}
+.bodydiv table tr td{
+    border: 1px solid #2e3530;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.bodydiv table tr td:hover{
+    background-color: blue;
+    font-weight: bold;
+}
+.colorful{
+    background-color: #d5d9d5;
+    color: black !important;
+}
