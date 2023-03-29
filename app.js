@@ -1,9 +1,13 @@
+var input = document.getElementById("number")
+var inputValue = document.getElementById("number")
 function setNumber(num) {
-    var input = document.getElementById("number")
     input.value += num
 }
 function ans(){
-    var inputValue = document.getElementById("number")
+    
     var output = eval(inputValue.value)
     inputValue.value = output
+}
+function del(){
+    input.value = input.value.slice(0,-1)
 }
