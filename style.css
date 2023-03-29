@@ -24,7 +24,7 @@
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg);
 }
 .parent{
-    margin: 50px auto;
+    margin: 15px auto;
     text-align: center;
     width: 300px;
     height: 480px;
@@ -35,10 +35,10 @@
     width: 250px;
     height: 100px;
     background-color: transparent;
-    border: 1px solid white;
+    
     margin: 20px 5px 5px 5px;
     border-radius: 10px;
-    color: white;
+    color: darkturquoise;
     font-size: 30px;
     font-weight: bold;
 }  
@@ -57,6 +57,7 @@ button{
     
 }
 button:hover{
-  background-color: darkblue;
-  transition: 2s;
+  background-color: lightblue;
+  color: black;
+  font-size: larger;
 }
