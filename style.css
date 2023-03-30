@@ -21,8 +21,9 @@ body {
   height: 100%;
   overflow: hidden;
   position: relative;
-  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg); */
-  background-image: url(./image/background.jpg!f305cw);
+  background-color: #180605;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .parent {
